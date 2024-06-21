@@ -1,0 +1,11 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    "config:js-app",
+    "helpers:disableTypesNodeMajor",
+    "helpers:pinGitHubActionDigests",
+    "schedule:automergeEarlyMondays",
+    ":automergeBranch",
+    ":automergeMinor",
+  ],
+}
