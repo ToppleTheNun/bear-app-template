@@ -341,6 +341,18 @@ function App() {
               .
             </p>
             <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
+              Logo by{" "}
+              <a
+                href="https://yilinzc.carrd.co/"
+                target="_blank"
+                rel="noreferrer"
+                className="font-medium underline underline-offset-4"
+              >
+                yilinzc
+              </a>
+              .
+            </p>
+            <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
               Using and inspired by{" "}
               <a
                 href="https://ui.shadcn.com"
