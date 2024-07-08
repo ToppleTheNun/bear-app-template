@@ -11,7 +11,7 @@
     "build:remix": "remix vite:build",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "dev": "pnpm run build:icons && remix vite:dev",
+    "dev": "pnpm run build:generate-env && pnpm run build:icons && remix vite:dev",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "remix-serve ./build/server/index.js",
     "typecheck": "tsc",
