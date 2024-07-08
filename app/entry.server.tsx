@@ -10,9 +10,11 @@ export default async function (
   responseHeaders: Headers,
   remixContext: EntryContext,
 ) {
+  const nonce = nanoid();
+
   const remixServer = (
-    <NonceProvider value={nanoid()}>
-      <RemixServer context={remixContext} url={request.url} />
+    <NonceProvider value={nonce}>
+      <RemixServer context={remixContext} url={request.url} nonce={nonce} />
     </NonceProvider>
   );
   return handleRequest(
