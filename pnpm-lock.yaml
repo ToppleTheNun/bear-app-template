@@ -72,8 +72,8 @@ importers:
         specifier: 18.3.1
         version: 18.3.1(react@18.3.1)
       spin-delay:
-        specifier: 2.0.0
-        version: 2.0.0(react@18.3.1)
+        specifier: 2.0.1
+        version: 2.0.1(react@18.3.1)
       tailwind-merge:
         specifier: 2.3.0
         version: 2.3.0
@@ -4445,8 +4445,8 @@ packages:
   spdx-license-ids@3.0.18:
     resolution: {integrity: sha512-xxRs31BqRYHwiMzudOrpSiHtZ8i/GeionCBDSilhYRj+9gIcI8wCZTlXZKu9vZIVqViP3dcp9qE5G6AlIaD+TQ==}
 
-  spin-delay@2.0.0:
-    resolution: {integrity: sha512-uNQnIjJ3Ms5ojVUMJaUZrF2Gs2gsSrVExueYrh8/yGg+ecPj65aZ0QI6ln7dguw9Wpp+bVCqGeY2Q9bT4MCL/A==}
+  spin-delay@2.0.1:
+    resolution: {integrity: sha512-ilggKXKqAMwk21PSYvxuF/KCnrsGFDrnO6mXa629mj8fvfo+dOQfubDViqsRjRX5U1jd3Xb8FTsV+m4Tg7YeUg==}
     peerDependencies:
       react: '>=17.0.1'
 
@@ -9864,7 +9864,7 @@ snapshots:
 
   spdx-license-ids@3.0.18: {}
 
-  spin-delay@2.0.0(react@18.3.1):
+  spin-delay@2.0.1(react@18.3.1):
     dependencies:
       react: 18.3.1
 
