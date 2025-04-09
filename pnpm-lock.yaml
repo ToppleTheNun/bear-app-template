@@ -60,8 +60,8 @@ importers:
         specifier: 0.6.0
         version: 0.6.0
       isbot:
-        specifier: 5.1.21
-        version: 5.1.21
+        specifier: 5.1.26
+        version: 5.1.26
       nanoid:
         specifier: 5.0.9
         version: 5.0.9
@@ -3172,8 +3172,8 @@ packages:
     resolution: {integrity: sha512-vne1mzQUTR+qsMLeCBL9+/tgnDXRyc2pygLGl/WsgA+EZKIiB5Ehu0CiVTHIIk30zhJ24uGz4M5Ppse37aR0Hg==}
     engines: {node: '>=12'}
 
-  isbot@5.1.21:
-    resolution: {integrity: sha512-0q3naRVpENL0ReKHeNcwn/G7BDynp0DqZUckKyFtM9+hmpnPqgm8+8wbjiVZ0XNhq1wPQV28/Pb8Snh5adeUHA==}
+  isbot@5.1.26:
+    resolution: {integrity: sha512-3wqJEYSIm59dYQjEF7zJ7T42aqaqxbCyJQda5rKCudJykuAnISptCHR/GSGpOnw8UrvU+mGueNLRJS5HXnbsXQ==}
     engines: {node: '>=18'}
 
   isexe@2.0.0:
@@ -8378,7 +8378,7 @@ snapshots:
 
   isbot@3.8.0: {}
 
-  isbot@5.1.21: {}
+  isbot@5.1.26: {}
 
   isexe@2.0.0: {}
 
