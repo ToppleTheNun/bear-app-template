@@ -15,8 +15,8 @@ importers:
         specifier: 1.1.5
         version: 1.1.5(react@18.3.1)
       '@conform-to/zod':
-        specifier: 1.1.5
-        version: 1.1.5(zod@3.23.8)
+        specifier: 1.7.2
+        version: 1.7.2(zod@3.23.8)
       '@epic-web/client-hints':
         specifier: 1.3.5
         version: 1.3.5
@@ -381,13 +381,16 @@ packages:
   '@conform-to/dom@1.1.5':
     resolution: {integrity: sha512-tWI3YxWvDaZFSl4QN8Y0WbgBxsWEfcTrSMtKic3YTt/hGVJXjQ8qURBdsJXudzJ38zwAr5GhpLWmyI6BbG9+gA==}
 
+  '@conform-to/dom@1.7.2':
+    resolution: {integrity: sha512-+zhsqywrug6HoP3DXxpybjPYm3kMJ29tk1DuLD/n3JRk8uzM9UpCeSb0DuQqmhRQ5yQRsBtN5yUMzkjCB7ypmA==}
+
   '@conform-to/react@1.1.5':
     resolution: {integrity: sha512-QyzJ8SIazHmez7qkMffypICDBwU+Ht5TPe+C4MTP2dro0N0Hu6LsfLq7mMWFJyAJ7IYxT1BMzfoFj28jheIIOw==}
     peerDependencies:
       react: '>=18'
 
-  '@conform-to/zod@1.1.5':
-    resolution: {integrity: sha512-ho/742wgfTWf2u5tKo4GT88xcKcvTOCDPOi4o1WEmePPmJNP5ezeMQSKSdKdS0rFinZl9ZTH8gV5FQUNPHAA7A==}
+  '@conform-to/zod@1.7.2':
+    resolution: {integrity: sha512-8DSMIjKwjJGdWHWRb3IHBib01Qb2Pn0C3i9May9cZlMLjxWehi1Aug+jBbTDOmmtmEpDDYnbWMjyRdBUJKQx3Q==}
     peerDependencies:
       zod: ^3.21.0
 
@@ -5507,14 +5510,16 @@ snapshots:
 
   '@conform-to/dom@1.1.5': {}
 
+  '@conform-to/dom@1.7.2': {}
+
   '@conform-to/react@1.1.5(react@18.3.1)':
     dependencies:
       '@conform-to/dom': 1.1.5
       react: 18.3.1
 
-  '@conform-to/zod@1.1.5(zod@3.23.8)':
+  '@conform-to/zod@1.7.2(zod@3.23.8)':
     dependencies:
-      '@conform-to/dom': 1.1.5
+      '@conform-to/dom': 1.7.2
       zod: 3.23.8
 
   '@dabh/diagnostics@2.0.3':
