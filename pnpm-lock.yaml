@@ -18,8 +18,8 @@ importers:
         specifier: 1.1.5
         version: 1.1.5(zod@3.23.8)
       '@epic-web/client-hints':
-        specifier: 1.3.5
-        version: 1.3.5
+        specifier: 1.3.7
+        version: 1.3.7
       '@epic-web/invariant':
         specifier: 1.0.0
         version: 1.0.0
@@ -407,8 +407,8 @@ packages:
   '@epic-web/cachified@5.2.0':
     resolution: {integrity: sha512-E/2LdIhS/wcn3ykV+u5xbTFahKtzReO0k4/cVtE7KBYiLCgR6bPRmlDUuyfWhbZX3zOmK+6OL7qdHkvgCWwSiA==}
 
-  '@epic-web/client-hints@1.3.5':
-    resolution: {integrity: sha512-tFIDxdU5NzN5Ak4gcDOPKkj6aF/qNMC0G+K58CTBZIx7CMSjCrxqhuiEbZBKGDAGJcsQLF5uKKlgs6mgqWmB7Q==}
+  '@epic-web/client-hints@1.3.7':
+    resolution: {integrity: sha512-BD8f4tsdb7Bfx5sedP+UVBd8AOEOQZl2RnMizhncpSiFf67GfAHvWNDqfqtzJ9burcCfJ8FlA8FiyIy6lLZ5EQ==}
 
   '@epic-web/invariant@1.0.0':
     resolution: {integrity: sha512-lrTPqgvfFQtR/eY/qkIzp98OGdNJu0m5ji3q/nJI8v3SXkRKEnWiOxMmbvcSoAIzv/cGiuvRy57k4suKQSAdwA==}
@@ -5556,7 +5556,7 @@ snapshots:
 
   '@epic-web/cachified@5.2.0': {}
 
-  '@epic-web/client-hints@1.3.5': {}
+  '@epic-web/client-hints@1.3.7': {}
 
   '@epic-web/invariant@1.0.0': {}
 
