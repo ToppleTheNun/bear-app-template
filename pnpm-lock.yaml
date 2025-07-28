@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@conform-to/dom':
-        specifier: 1.8.1
-        version: 1.8.1
+        specifier: 1.8.2
+        version: 1.8.2
       '@conform-to/react':
         specifier: 1.1.5
         version: 1.1.5(react@18.3.1)
@@ -381,8 +381,8 @@ packages:
   '@conform-to/dom@1.1.5':
     resolution: {integrity: sha512-tWI3YxWvDaZFSl4QN8Y0WbgBxsWEfcTrSMtKic3YTt/hGVJXjQ8qURBdsJXudzJ38zwAr5GhpLWmyI6BbG9+gA==}
 
-  '@conform-to/dom@1.8.1':
-    resolution: {integrity: sha512-Sg4Jz31ZyiqbFHAKOmG+sVHtukku2Xmxv9ObYzj/TrKMXF1R9qN3ShucAIZWtRaw9l9vZGiqpDnSyfevmiBxuQ==}
+  '@conform-to/dom@1.8.2':
+    resolution: {integrity: sha512-5eDqI9366+23Fl/E5zxebuy2FCebJKpSrdE/c6PZQ5Ul59BYQ17pBmkLkvxAKjPXW+Qq77BJyjGjuklwmqN08A==}
 
   '@conform-to/react@1.1.5':
     resolution: {integrity: sha512-QyzJ8SIazHmez7qkMffypICDBwU+Ht5TPe+C4MTP2dro0N0Hu6LsfLq7mMWFJyAJ7IYxT1BMzfoFj28jheIIOw==}
@@ -5533,7 +5533,7 @@ snapshots:
 
   '@conform-to/dom@1.1.5': {}
 
-  '@conform-to/dom@1.8.1': {}
+  '@conform-to/dom@1.8.2': {}
 
   '@conform-to/react@1.1.5(react@18.3.1)':
     dependencies:
