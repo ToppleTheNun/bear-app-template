@@ -12,8 +12,8 @@ importers:
         specifier: 1.8.2
         version: 1.8.2
       '@conform-to/react':
-        specifier: 1.1.5
-        version: 1.1.5(react@18.3.1)
+        specifier: 1.8.2
+        version: 1.8.2(react@18.3.1)
       '@conform-to/zod':
         specifier: 1.8.2
         version: 1.8.2(zod@3.23.8)
@@ -378,14 +378,11 @@ packages:
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
     engines: {node: '>=0.1.90'}
 
-  '@conform-to/dom@1.1.5':
-    resolution: {integrity: sha512-tWI3YxWvDaZFSl4QN8Y0WbgBxsWEfcTrSMtKic3YTt/hGVJXjQ8qURBdsJXudzJ38zwAr5GhpLWmyI6BbG9+gA==}
-
   '@conform-to/dom@1.8.2':
     resolution: {integrity: sha512-5eDqI9366+23Fl/E5zxebuy2FCebJKpSrdE/c6PZQ5Ul59BYQ17pBmkLkvxAKjPXW+Qq77BJyjGjuklwmqN08A==}
 
-  '@conform-to/react@1.1.5':
-    resolution: {integrity: sha512-QyzJ8SIazHmez7qkMffypICDBwU+Ht5TPe+C4MTP2dro0N0Hu6LsfLq7mMWFJyAJ7IYxT1BMzfoFj28jheIIOw==}
+  '@conform-to/react@1.8.2':
+    resolution: {integrity: sha512-AJuHH4YY64o+VP3qsXd7bqlqCJYefTcEVj6mOiQr/m9iQV785gPtGE31jdmipvQ3ZHQE0Lp4e4th7kN/xo46qg==}
     peerDependencies:
       react: '>=18'
 
@@ -5549,13 +5546,11 @@ snapshots:
 
   '@colors/colors@1.6.0': {}
 
-  '@conform-to/dom@1.1.5': {}
-
   '@conform-to/dom@1.8.2': {}
 
-  '@conform-to/react@1.1.5(react@18.3.1)':
+  '@conform-to/react@1.8.2(react@18.3.1)':
     dependencies:
-      '@conform-to/dom': 1.1.5
+      '@conform-to/dom': 1.8.2
       react: 18.3.1
 
   '@conform-to/zod@1.8.2(zod@3.23.8)':
