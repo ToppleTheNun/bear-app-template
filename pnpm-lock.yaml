@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@conform-to/dom':
-        specifier: 1.8.2
-        version: 1.8.2
+        specifier: 1.13.3
+        version: 1.13.3
       '@conform-to/react':
         specifier: 1.11.0
         version: 1.11.0(react@18.3.1)
@@ -380,6 +380,9 @@ packages:
 
   '@conform-to/dom@1.11.0':
     resolution: {integrity: sha512-qneM158mqhPqGlMyvTiC7T2YpuDHxtaYUl8B8kSyj75YLETaQieR5jhXPt1SfYHqyDw0mdsUc2zR6yXzt94Hgw==}
+
+  '@conform-to/dom@1.13.3':
+    resolution: {integrity: sha512-V4uNfUcx0cfuwnL/yNtjRvWxzwyNWhayBJXhRDBxEtiqBJiSEge6qeMN0xSUDbZezj5uAl13rzVQyf6FZXoOZQ==}
 
   '@conform-to/dom@1.8.2':
     resolution: {integrity: sha512-5eDqI9366+23Fl/E5zxebuy2FCebJKpSrdE/c6PZQ5Ul59BYQ17pBmkLkvxAKjPXW+Qq77BJyjGjuklwmqN08A==}
@@ -5550,6 +5553,8 @@ snapshots:
   '@colors/colors@1.6.0': {}
 
   '@conform-to/dom@1.11.0': {}
+
+  '@conform-to/dom@1.13.3': {}
 
   '@conform-to/dom@1.8.2': {}
 
