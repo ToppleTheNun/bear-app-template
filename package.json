@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@dotenvx/dotenvx": "0.45.0",
-    "@eslint/eslintrc": "3.3.1",
+    "@eslint/eslintrc": "3.3.3",
     "@eslint/js": "8.57.1",
     "@remix-run/dev": "2.17.2",
     "@sly-cli/sly": "1.10.0",
