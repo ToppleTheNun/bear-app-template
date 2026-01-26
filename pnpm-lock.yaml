@@ -97,8 +97,8 @@ importers:
         specifier: 2.17.2
         version: 2.17.2(@remix-run/react@2.17.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3))(@remix-run/serve@2.17.2(typescript@5.8.3))(@types/node@20.14.7)(typescript@5.8.3)(vite@5.4.21(@types/node@20.14.7))
       '@sly-cli/sly':
-        specifier: 1.10.0
-        version: 1.10.0(typescript@5.8.3)
+        specifier: 1.14.0
+        version: 1.14.0(typescript@5.8.3)
       '@total-typescript/ts-reset':
         specifier: 0.5.1
         version: 0.5.1
@@ -1594,8 +1594,8 @@ packages:
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
     engines: {node: '>=18'}
 
-  '@sly-cli/sly@1.10.0':
-    resolution: {integrity: sha512-keX8aUj4tpDGrfup/QvLttH61ARd0wxU7m9YEwGkpHohvnyIG8lXltbzpZdE9AGmQJLFYs0s++rFRmqpSKoqfQ==}
+  '@sly-cli/sly@1.14.0':
+    resolution: {integrity: sha512-hczYYDeTUU+CMTMMcfH4MTN9dLyzivfAISI0EyTHLzHHJnTSOWYqJwyNRib+/yrSumdDMSym4n8zBRZEhJpyBw==}
     hasBin: true
 
   '@total-typescript/ts-reset@0.5.1':
@@ -2091,10 +2091,6 @@ packages:
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
-
-  chalk@5.3.0:
-    resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
-    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
 
   chalk@5.4.1:
     resolution: {integrity: sha512-zgVZuo2WcZgfUEmsn6eO3kINexW8RAE4maiQ8QNs8CtpPCSyMiYsULR3HQYkm3w8FIA3SberyMJMSldGsW+U3w==}
@@ -6586,10 +6582,10 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@sly-cli/sly@1.10.0(typescript@5.8.3)':
+  '@sly-cli/sly@1.14.0(typescript@5.8.3)':
     dependencies:
       '@epic-web/cachified': 5.2.0
-      chalk: 5.3.0
+      chalk: 5.4.1
       commander: 11.1.0
       compare-versions: 6.1.0
       cosmiconfig: 8.3.6(typescript@5.8.3)
@@ -7236,8 +7232,6 @@ snapshots:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
 
-  chalk@5.3.0: {}
-
   chalk@5.4.1: {}
 
   character-entities-html4@2.1.0: {}
@@ -7406,7 +7400,7 @@ snapshots:
   cosmiconfig@8.3.6(typescript@5.8.3):
     dependencies:
       import-fresh: 3.3.0
-      js-yaml: 4.1.0
+      js-yaml: 4.1.1
       parse-json: 5.2.0
       path-type: 4.0.0
     optionalDependencies:
@@ -8130,7 +8124,7 @@ snapshots:
 
   execa@7.2.0:
     dependencies:
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       get-stream: 6.0.1
       human-signals: 4.3.1
       is-stream: 3.0.0
@@ -9547,7 +9541,7 @@ snapshots:
 
   ora@6.3.1:
     dependencies:
-      chalk: 5.3.0
+      chalk: 5.4.1
       cli-cursor: 4.0.0
       cli-spinners: 2.9.2
       is-interactive: 2.0.0
