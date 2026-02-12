@@ -118,8 +118,8 @@ importers:
         specifier: 2.9.2-patch.2
         version: 2.9.2-patch.2(@remix-run/dev@2.17.2(@remix-run/react@2.17.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3))(@remix-run/serve@2.17.2(typescript@5.8.3))(@types/node@20.14.7)(typescript@5.8.3)(vite@5.4.21(@types/node@20.14.7)))(@remix-run/node@2.17.2(typescript@5.8.3))(@remix-run/server-runtime@2.17.2(typescript@5.8.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       autoprefixer:
-        specifier: 10.4.23
-        version: 10.4.23(postcss@8.4.49)
+        specifier: 10.4.24
+        version: 10.4.24(postcss@8.4.49)
       eslint:
         specifier: 8.57.1
         version: 8.57.1
@@ -1967,8 +1967,8 @@ packages:
     resolution: {integrity: sha512-Xcz9l0z7y9yQ9rdDaxlmaI4uJHf/T8g9hOEzJcsEqX2SjCj4J20uK7+ldkDHMbpJDK76wF7xEIgxc/vSlsfw5w==}
     engines: {node: '>=10.12.0'}
 
-  autoprefixer@10.4.23:
-    resolution: {integrity: sha512-YYTXSFulfwytnjAPlw8QHncHJmlvFKtczb8InXaAx9Q0LbfDnfEYDE55omerIJKihhmU61Ft+cAOSzQVaBUmeA==}
+  autoprefixer@10.4.24:
+    resolution: {integrity: sha512-uHZg7N9ULTVbutaIsDRoUkoS8/h3bdsmVJYZ5l3wv8Cp/6UIIoRDm90hZ+BwxUj/hGBEzLxdHNSKuFpn8WOyZw==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -2074,8 +2074,8 @@ packages:
     resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==}
     engines: {node: '>= 6'}
 
-  caniuse-lite@1.0.30001762:
-    resolution: {integrity: sha512-PxZwGNvH7Ak8WX5iXzoK1KPZttBXNPuaOvI2ZYU7NrlM+d9Ov+TUvlLOBNGzVXAntMSMMlJPd+jY6ovrVjSmUw==}
+  caniuse-lite@1.0.30001769:
+    resolution: {integrity: sha512-BCfFL1sHijQlBGWBMuJyhZUhzo7wer5sVj9hqekB/7xn0Ypy+pER/edCYQm4exbXj4WiySGp40P8UuTh6w1srg==}
 
   ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
@@ -2988,11 +2988,12 @@ packages:
 
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   globals@11.12.0:
     resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==}
@@ -4810,7 +4811,7 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
-    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exhorbitant rates) by contacting i@izs.me
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   text-hex@1.0.0:
     resolution: {integrity: sha512-uuVGNWzgJ4yhRaNSiubPY7OjISw4sw4E5Uv0wbjp+OzcbmVU/rsT8ujgcXJhn9ypzsgr5vlzpPqP+MBBKcGvbg==}
@@ -7077,10 +7078,10 @@ snapshots:
 
   atomically@1.7.0: {}
 
-  autoprefixer@10.4.23(postcss@8.4.49):
+  autoprefixer@10.4.24(postcss@8.4.49):
     dependencies:
       browserslist: 4.28.1
-      caniuse-lite: 1.0.30001762
+      caniuse-lite: 1.0.30001769
       fraction.js: 5.3.4
       picocolors: 1.1.1
       postcss: 8.4.49
@@ -7161,7 +7162,7 @@ snapshots:
   browserslist@4.28.1:
     dependencies:
       baseline-browser-mapping: 2.9.0
-      caniuse-lite: 1.0.30001762
+      caniuse-lite: 1.0.30001769
       electron-to-chromium: 1.5.263
       node-releases: 2.0.27
       update-browserslist-db: 1.2.0(browserslist@4.28.1)
@@ -7211,7 +7212,7 @@ snapshots:
 
   camelcase-css@2.0.1: {}
 
-  caniuse-lite@1.0.30001762: {}
+  caniuse-lite@1.0.30001769: {}
 
   ccount@2.0.1: {}
 
