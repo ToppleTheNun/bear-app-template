@@ -15,8 +15,8 @@ importers:
         specifier: 1.11.0
         version: 1.11.0(react@18.3.1)
       '@conform-to/zod':
-        specifier: 1.8.2
-        version: 1.8.2(zod@3.23.8)
+        specifier: 1.17.1
+        version: 1.17.1(zod@3.23.8)
       '@epic-web/client-hints':
         specifier: 1.3.8
         version: 1.3.8
@@ -381,6 +381,9 @@ packages:
   '@conform-to/dom@1.11.0':
     resolution: {integrity: sha512-qneM158mqhPqGlMyvTiC7T2YpuDHxtaYUl8B8kSyj75YLETaQieR5jhXPt1SfYHqyDw0mdsUc2zR6yXzt94Hgw==}
 
+  '@conform-to/dom@1.17.1':
+    resolution: {integrity: sha512-vpwCodVVWpQ6kbrlu5F85BC99ozDxqcrhmt+YDD81bCwvt6NtiycFID3NQQGQyn+bzmpb4qlF3Ay9YcljnrNHw==}
+
   '@conform-to/dom@1.8.2':
     resolution: {integrity: sha512-5eDqI9366+23Fl/E5zxebuy2FCebJKpSrdE/c6PZQ5Ul59BYQ17pBmkLkvxAKjPXW+Qq77BJyjGjuklwmqN08A==}
 
@@ -389,8 +392,8 @@ packages:
     peerDependencies:
       react: '>=18'
 
-  '@conform-to/zod@1.8.2':
-    resolution: {integrity: sha512-uYipAoNByusRji7j84o40r9IvYmsV84utfCfvqr2b746/8JnBuoO6C90yltan5D9OVAJMIKejXW4T1XfOsaMWg==}
+  '@conform-to/zod@1.17.1':
+    resolution: {integrity: sha512-oFt2OdCrAhNEKjjyc8QAgiykDI9s+RG9nAuxrqGyp/BFXuRPPiu0e+QIVUAxSnWtZ82swtSaf87DI+jTAyhaLg==}
     peerDependencies:
       zod: ^3.21.0 || ^4.0.0
 
@@ -5545,6 +5548,8 @@ snapshots:
 
   '@conform-to/dom@1.11.0': {}
 
+  '@conform-to/dom@1.17.1': {}
+
   '@conform-to/dom@1.8.2': {}
 
   '@conform-to/react@1.11.0(react@18.3.1)':
@@ -5552,9 +5557,9 @@ snapshots:
       '@conform-to/dom': 1.11.0
       react: 18.3.1
 
-  '@conform-to/zod@1.8.2(zod@3.23.8)':
+  '@conform-to/zod@1.17.1(zod@3.23.8)':
     dependencies:
-      '@conform-to/dom': 1.8.2
+      '@conform-to/dom': 1.17.1
       zod: 3.23.8
 
   '@dabh/diagnostics@2.0.3':
