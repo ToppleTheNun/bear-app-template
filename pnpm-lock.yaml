@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@conform-to/dom':
-        specifier: 1.18.0
-        version: 1.18.0
+        specifier: 1.19.1
+        version: 1.19.1
       '@conform-to/react':
         specifier: 1.19.0
         version: 1.19.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -378,11 +378,11 @@ packages:
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
     engines: {node: '>=0.1.90'}
 
-  '@conform-to/dom@1.18.0':
-    resolution: {integrity: sha512-luccJjJJgvePp8mmU1plwEcofP0Gk/7a54ukSX1ta7K6J0Ep37nm18WK7gowrVCIHzCnR7iAdyjd+vGTpuI4zw==}
-
   '@conform-to/dom@1.19.0':
     resolution: {integrity: sha512-2qegTdMy3ZT+SzzD8YyUWupAEhLl3X248bhrbhXdRsWjFdGSnTz12YB9j/f1MZ27A1LnmijKYiz2mgMdlblPAA==}
+
+  '@conform-to/dom@1.19.1':
+    resolution: {integrity: sha512-h4/T04zgASuiHMVEiXiyQA4jIW9zhpVFbp0HrWCQUDBxd8Zc1JbTarR7cuJyzkmqshC4tdm4VKIHguLp+7AYCw==}
 
   '@conform-to/dom@1.8.2':
     resolution: {integrity: sha512-5eDqI9366+23Fl/E5zxebuy2FCebJKpSrdE/c6PZQ5Ul59BYQ17pBmkLkvxAKjPXW+Qq77BJyjGjuklwmqN08A==}
@@ -5547,9 +5547,9 @@ snapshots:
 
   '@colors/colors@1.6.0': {}
 
-  '@conform-to/dom@1.18.0': {}
-
   '@conform-to/dom@1.19.0': {}
+
+  '@conform-to/dom@1.19.1': {}
 
   '@conform-to/dom@1.8.2': {}
 
