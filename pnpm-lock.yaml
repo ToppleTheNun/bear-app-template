@@ -115,8 +115,8 @@ importers:
         specifier: 7.18.0
         version: 7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.8.3))(eslint@8.57.1)(typescript@5.8.3)
       '@vercel/remix':
-        specifier: 2.9.2-patch.2
-        version: 2.9.2-patch.2(@remix-run/dev@2.17.4(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3))(@remix-run/serve@2.17.4(typescript@5.8.3))(@types/node@20.14.7)(typescript@5.8.3)(vite@5.4.21(@types/node@20.14.7)))(@remix-run/node@2.17.4(typescript@5.8.3))(@remix-run/server-runtime@2.17.4(typescript@5.8.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 2.16.7
+        version: 2.16.7(@remix-run/dev@2.17.4(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3))(@remix-run/serve@2.17.4(typescript@5.8.3))(@types/node@20.14.7)(typescript@5.8.3)(vite@5.4.21(@types/node@20.14.7)))(@remix-run/node@2.17.4(typescript@5.8.3))(@remix-run/server-runtime@2.17.4(typescript@5.8.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       autoprefixer:
         specifier: 10.4.27
         version: 10.4.27(postcss@8.4.49)
@@ -1779,13 +1779,13 @@ packages:
       react:
         optional: true
 
-  '@vercel/remix@2.9.2-patch.2':
-    resolution: {integrity: sha512-sKSeBFqTj0HSYsf7KpxA84ixrb4AkuoDm0G7hlrWUnRtCy9Fa65YX8fbHoewdVbc8uTBa2XAiBCjPMmtohas9w==}
+  '@vercel/remix@2.16.7':
+    resolution: {integrity: sha512-lQ7GdUO0ilX5eqIC4Wwewo5coAvacZzZrirr46BRwCp71jFqLscsruLqd6RI8s55cZWsXFZsIuOIQhcYUiL/3Q==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
-      '@remix-run/dev': 2.9.2
-      '@remix-run/node': 2.9.2
-      '@remix-run/server-runtime': 2.9.2
+      '@remix-run/dev': 2.16.7
+      '@remix-run/node': 2.16.7
+      '@remix-run/server-runtime': 2.16.7
       react: '*'
       react-dom: '*'
 
@@ -6609,7 +6609,7 @@ snapshots:
   '@ts-morph/common@0.11.1':
     dependencies:
       fast-glob: 3.3.2
-      minimatch: 3.1.2
+      minimatch: 3.1.5
       mkdirp: 1.0.4
       path-browserify: 1.0.1
 
@@ -6857,7 +6857,7 @@ snapshots:
     optionalDependencies:
       react: 18.3.1
 
-  '@vercel/remix@2.9.2-patch.2(@remix-run/dev@2.17.4(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3))(@remix-run/serve@2.17.4(typescript@5.8.3))(@types/node@20.14.7)(typescript@5.8.3)(vite@5.4.21(@types/node@20.14.7)))(@remix-run/node@2.17.4(typescript@5.8.3))(@remix-run/server-runtime@2.17.4(typescript@5.8.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@vercel/remix@2.16.7(@remix-run/dev@2.17.4(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3))(@remix-run/serve@2.17.4(typescript@5.8.3))(@types/node@20.14.7)(typescript@5.8.3)(vite@5.4.21(@types/node@20.14.7)))(@remix-run/node@2.17.4(typescript@5.8.3))(@remix-run/server-runtime@2.17.4(typescript@5.8.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@remix-run/dev': 2.17.4(@remix-run/react@2.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3))(@remix-run/serve@2.17.4(typescript@5.8.3))(@types/node@20.14.7)(typescript@5.8.3)(vite@5.4.21(@types/node@20.14.7))
       '@remix-run/node': 2.17.4(typescript@5.8.3)
@@ -8408,7 +8408,7 @@ snapshots:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.1.2
+      minimatch: 3.1.5
       once: 1.4.0
       path-is-absolute: 1.0.1
 
