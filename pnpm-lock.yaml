@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@conform-to/dom':
-        specifier: 1.19.3
-        version: 1.19.3
+        specifier: 1.21.2
+        version: 1.21.2
       '@conform-to/react':
-        specifier: 1.19.3
-        version: 1.19.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 1.21.2
+        version: 1.21.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@conform-to/zod':
-        specifier: 1.19.3
-        version: 1.19.3(zod@3.23.8)
+        specifier: 1.21.2
+        version: 1.21.2(zod@3.23.8)
       '@epic-web/client-hints':
         specifier: 1.3.9
         version: 1.3.9
@@ -378,17 +378,17 @@ packages:
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
     engines: {node: '>=0.1.90'}
 
-  '@conform-to/dom@1.19.3':
-    resolution: {integrity: sha512-ugNx4nMiSSEkIepo5rKxUW1I1Iab3ZFuRjNYw2b2zb7BSQJfDq4DwbywaAd55qS/8PVGp1n5G2O6orDHWPWWqA==}
+  '@conform-to/dom@1.21.2':
+    resolution: {integrity: sha512-43LIYhFUPOMtV01LOH9Pes/8vROW7Qgh249ytv0EBfPCR963g0HR6xK6hUD1r2EjM8Zgs17oMZgoRyRT8krH/Q==}
 
-  '@conform-to/react@1.19.3':
-    resolution: {integrity: sha512-qIqvGzoVHQarRSH7r73yBQ3fLYdafhNQcItZt1dT7GK/VMB0A5eJ8fgylcY1zb5CEeZrvACC9zpmcLMqOD2nkA==}
+  '@conform-to/react@1.21.2':
+    resolution: {integrity: sha512-z3I4x3sVL5hl773M8uDXAU98qMLAv3rDf27qPHdrlvru/M/SnsBOUrpFUgkhJpShaj48oMiF3Ms8lBjugwy6uA==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
 
-  '@conform-to/zod@1.19.3':
-    resolution: {integrity: sha512-tlHywfz6W6bYnhmi8ajM1+ZLYjywLJVXteU4wvjc6QM0JT1g61cf4BaQqdDhKaAKl7DzqbZxi/riyMtz9HxyCQ==}
+  '@conform-to/zod@1.21.2':
+    resolution: {integrity: sha512-SQTqr0jxIhmLHMcT5XsJFalcyBsoCoMXj1rN0/L/yYupcSh9vnieUzrkSdrihcXzA82XDk/S+lPEjMfG1z8XVA==}
     peerDependencies:
       zod: ^3.21.0 || ^4.0.0
 
@@ -5546,17 +5546,17 @@ snapshots:
 
   '@colors/colors@1.6.0': {}
 
-  '@conform-to/dom@1.19.3': {}
+  '@conform-to/dom@1.21.2': {}
 
-  '@conform-to/react@1.19.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@conform-to/react@1.21.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@conform-to/dom': 1.19.3
+      '@conform-to/dom': 1.21.2
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@conform-to/zod@1.19.3(zod@3.23.8)':
+  '@conform-to/zod@1.21.2(zod@3.23.8)':
     dependencies:
-      '@conform-to/dom': 1.19.3
+      '@conform-to/dom': 1.21.2
       zod: 3.23.8
 
   '@dabh/diagnostics@2.0.3':
