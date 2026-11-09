@@ -118,8 +118,8 @@ importers:
         specifier: 2.16.7
         version: 2.16.7(@remix-run/dev@2.17.5(@remix-run/react@2.17.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.8.3))(@remix-run/serve@2.17.5(typescript@5.8.3))(@types/node@20.14.7)(typescript@5.8.3)(vite@5.4.21(@types/node@20.14.7)))(@remix-run/node@2.17.5(typescript@5.8.3))(@remix-run/server-runtime@2.17.5(typescript@5.8.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       autoprefixer:
-        specifier: 10.6.1
-        version: 10.6.1(postcss@8.4.49)
+        specifier: 10.6.2
+        version: 10.6.2(postcss@8.4.49)
       eslint:
         specifier: 8.57.1
         version: 8.57.1
@@ -1976,8 +1976,8 @@ packages:
     resolution: {integrity: sha512-Xcz9l0z7y9yQ9rdDaxlmaI4uJHf/T8g9hOEzJcsEqX2SjCj4J20uK7+ldkDHMbpJDK76wF7xEIgxc/vSlsfw5w==}
     engines: {node: '>=10.12.0'}
 
-  autoprefixer@10.6.1:
-    resolution: {integrity: sha512-cL1Qz6ADZhcEbny/8HPfe99J6HhNoYtpX2LFLIbhgGE7Q1hlQVkYFdetDN7Id3KiQxhDrHwzlHr/YQCnZ8+xSA==}
+  autoprefixer@10.6.2:
+    resolution: {integrity: sha512-VOw9/yGTGwPPgzFcODtcv6zhEPIeIWkRSe10L2ri2f5vZ7ID7lCt6jZzRF5/ubgOZ+szYydmEF5AYsA5jxX1tA==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -7092,7 +7092,7 @@ snapshots:
 
   atomically@1.7.0: {}
 
-  autoprefixer@10.6.1(postcss@8.4.49):
+  autoprefixer@10.6.2(postcss@8.4.49):
     dependencies:
       browserslist: 4.29.3
       caniuse-lite: 1.0.30001815
