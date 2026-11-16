@@ -67,7 +67,7 @@
     "eslint-plugin-unicorn": "53.0.0",
     "eslint-plugin-vitest": "0.5.4",
     "execa": "9.6.1",
-    "fs-extra": "11.2.0",
+    "fs-extra": "11.4.1",
     "glob": "10.4.5",
     "globals": "15.6.0",
     "lint-staged": "15.3.0",
